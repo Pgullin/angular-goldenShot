@@ -1,0 +1,12 @@
+<ul class="heroes">
+  <li *ngFor="let goldenShot of goldenShots">
+    <span class="badge">{{goldenShot.name}}</span> <span class="badge">{{goldenShot.score}}</span> {{goldenShot.distance}}
+  </li>
+</ul>
+
+<label class="label">
+  <input type="checkbox" class="label__input" />
+
+  <!-- Circle -->
+  <div class="label__circle"></div>
+</label>
