@@ -9,6 +9,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 })
 export class HttpService {
   private goldenShotUrl = 'http://localhost:4221/goldenShot';
+  // private goldenShotUrl = ' https://golden-shot-server.herokuapp.com/';
 
   constructor(private http: HttpClient) { }
 
